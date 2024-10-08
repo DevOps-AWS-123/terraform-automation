@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Git Pulling') {
             steps {
-                git branch: 'main', url: 'github link'
+                git branch: 'main', url: 'https://github.com/DevOps-AWS-123/terraform-automation.git'
             }
         }
         stage('Init') {
