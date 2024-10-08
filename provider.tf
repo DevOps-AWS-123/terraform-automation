@@ -1,4 +1,4 @@
-#This is provider block
+#This is provider block and adding some points
 terraform {
   required_providers {
     aws = {
