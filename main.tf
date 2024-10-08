@@ -1,4 +1,4 @@
-#plugin random_id or module
+#plugin random_id or module testing purpose
 resource "random_id" "server" {
   byte_length = 2
 }
