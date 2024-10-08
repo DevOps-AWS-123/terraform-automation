@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "myorg-terraform-states-main-files"
+    bucket         = "myorg-terraform-states-main-files-123"
     key            = "prod/terraform.tfstate" # Path within the bucket
     region         = "us-east-1"
     dynamodb_table = "terraform-locks" # Optional: For state locking
