@@ -1,3 +1,4 @@
+#This is provider block
 terraform {
   required_providers {
     aws = {
