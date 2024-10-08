@@ -1,0 +1,1 @@
+variable "first_vpc" {}
